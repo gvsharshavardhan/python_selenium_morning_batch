@@ -1,0 +1,32 @@
+data types:
+
+numerical data types:
+---------------------
+int     numbers [-ve zero +ve]
+float   decimal numbers [-ve(-45.98) zero(0.0) +ve(67.99)]
+complex a+-bj [2+3j, 2.6-3.7j, 0+0j]
+
+string  "", '', ''' '''
+bool    True, False
+
+
+Iterable datatypes:
+====================
+string
+list
+set
+dict
+tuple
+range
+
+range: -> range type
+--------
+1) range(stop) -> range(0,stop-1)
+2) range(start,stop) -> [start,stop)
+3) range(start,stop,step) -> [start,stop)
+
+print odd numbers from [0,101)
+
+start -> source
+stop -> destination
+step -> value->no of steps, sign-> direction
